@@ -89,7 +89,7 @@ public class ScriptManager {
             return null;
         }
 
-		// File compiledFilesDir = new File(compiledDir, scriptName);
+		 File compiledFilesDir = new File(compiledDir, scriptName);
         loadClasses(script);
 
         if (script.invokeOnLoad) {
